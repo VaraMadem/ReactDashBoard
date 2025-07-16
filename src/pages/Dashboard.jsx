@@ -68,9 +68,9 @@ export default function Dashboard() {
           return acc;
         }, {});
 
-        const topCountry = Object.entries(countryCounts).sort(
-          (a, b) => b[1] - a[1]
-        )[0][0];
+        const sortedCountries = Object.entries(countryCounts).sort((a, b) => b[1] - a[1]);
+const topCountry = sortedCountries.length > 0 ? sortedCountries[0][0] : "N/A";
+
 
         setCompanies(parsedCompanies);
         setSummary({
