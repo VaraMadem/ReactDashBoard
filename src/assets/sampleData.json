@@ -1,0 +1,27 @@
+[
+    {
+      "Rank": 1,
+      "Company": "Nvidia Corporation",
+      "Market Cap (USD)": 1185600000000,
+      "Country": "United States",
+      "Sector": "US Technology",
+      "Industry": "US Semiconductors"
+    },
+    {
+      "Rank": 2,
+      "Company": "Broadcom Inc.",
+      "Market Cap (USD)": 495950000000,
+      "Country": "United States",
+      "Sector": "US Technology",
+      "Industry": "US Semiconductors"
+    },
+    {
+      "Rank": 3,
+      "Company": "TSMC",
+      "Market Cap (USD)": 487640000000,
+      "Country": "Taiwan",
+      "Sector": "Taiwanese Technology",
+      "Industry": "Taiwanese Semiconductors"
+    }
+  ]
+  
