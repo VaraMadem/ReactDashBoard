@@ -17,7 +17,12 @@ export default defineConfig([
       ecmaVersion: 2020,
       globals: {
         ...globals.browser,
-        ...globals.vitest // ✅ Add Vitest globals so ESLint recognizes describe/it/expect
+        // ✅ Allow Vitest/Jest-like globals
+        vi: true,
+        describe: true,
+        it: true,
+        expect: true,
+        global: true, // ✅ Fix `global` undefined
       },
       parserOptions: {
         ecmaVersion: 'latest',
@@ -26,7 +31,7 @@ export default defineConfig([
       },
     },
     rules: {
-      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      'no-unused-vars': ['error', { varsIgnorePattern: '^[_A-Z]' }],
     },
   },
 ])
