@@ -16,4 +16,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 Link to Streamlit dashboard:
-https://www.youtubeeducation.com/watch?v=zOkjFsWbXUo
+[https://www.youtubeeducation.com/watch?v=zOkjFsWbXUo](https://docs.google.com/presentation/d/1b8JrL_vII-3ELUcZAGHNvtVZ0gQ61jV_83L4r8iaMFg/edit?usp=sharing)
