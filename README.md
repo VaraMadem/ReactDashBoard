@@ -13,3 +13,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 <img width="1098" height="755" alt="image" src="https://github.com/user-attachments/assets/d6f8f85c-5339-4971-9c50-49f9406fbf6d" />
+
+
+Link to Streamlit dashboard:
+https://www.youtubeeducation.com/watch?v=zOkjFsWbXUo
